@@ -9,7 +9,11 @@ We propose a **Pseudo-Label Driven Vision-Language Grounding method for CD-FSOD,
 
 ## 🛠️ Environment Setup
 
-***Environment*** This repo requires Pytorch>=1.9 and torchvision. We recommend using docker to setup the environment. You can use this pre-built docker image or this one depending on your GPU.`docker pull pengchuanzhang/maskrcnn:ubuntu18-py3.7-cuda10.2-pytorch1.9``docker pull pengchuanzhang/pytorch:ubuntu20.04_torch1.9-cuda11.3-nccl2.9.9`
+***Environment*** This repo requires PyTorch>=1.9 and torchvision. We recommend using docker to setup the environment. You can use this pre-built docker image or this one depending on your GPU:
+```bash
+docker pull pengchuanzhang/maskrcnn:ubuntu18-py3.7-cuda10.2-pytorch1.9
+docker pull pengchuanzhang/pytorch:ubuntu20.04_torch1.9-cuda11.3-nccl2.9.9
+```
 
 Then install the following packages:
 
