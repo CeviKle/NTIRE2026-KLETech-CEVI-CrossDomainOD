@@ -110,17 +110,6 @@ The final results will be saved in the `/ensemble_results` folder.
 
 We express our gratitude to the [GLIP](https://github.com/microsoft/GLIP) and [Open-GroundingDino](https://github.com/longzw1997/Open-GroundingDino) authors for their open-source contribution.
 
-## 📄 Citation
-If you use our method or codes in your research, please cite:
-```
-@inproceedings{fu2025ntire, 
-  title={NTIRE 2025 challenge on cross-domain few-shot object detection: methods and results,
-  author={Fu, Yuqian and Qiu, Xingyu and Ren, Bin and Fu, Yanwei and Timofte, Radu and Sebe, Nicu and Yang, Ming-Hsuan and Van Gool, Luc and others},
-  booktitle={CVPRW},
-  year={2025}
-}
-```
-
 
 
 
