@@ -1,0 +1,53 @@
+*.egg-info
+*.pyc
+build/
+DATASET/
+OUTPUT/
+MODEL/
+weights/
+checkpoints/
+
+# compilation and distribution
+__pycache__
+_ext
+*.so
+maskrcnn_benchmark.egg-info/
+dist/
+
+# pytorch/python/numpy formats
+*.pth
+*.pkl
+*.npy
+
+# ipython/jupyter notebooks
+*.ipynb
+**/.ipynb_checkpoints/
+
+# Editor temporaries
+*.swn
+*.swo
+*.swp
+*~
+
+# Pycharm editor settings
+.idea
+
+# vscode editor settings
+.vscode
+
+# MacOS
+.DS_Store
+
+# Custom
+*.custom.py
+
+GLIP_result/
+GLIP_result_multiscale/
+GLIP_result_multiscale_filtered_d1/
+DINO_result/
+ensemble_results/
+submission_dataset1_filtered/
+submission_dataset1_only/
+not_use/
+*.zip
+*.log
